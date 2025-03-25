@@ -2,9 +2,8 @@ package meuProjeto;
 
 public class Main {
     public static void main(String[] args){
-        float valorFracionario = 4.333f;
-        double valorFracionarioX2 = (double)valorFracionario;
+        String minhaFrase = "frase completa ";
 
-        System.out.println(valorFracionarioX2);
+        System.out.println(minhaFrase);
     }
 }
