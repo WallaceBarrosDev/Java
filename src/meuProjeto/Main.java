@@ -2,23 +2,16 @@ package meuProjeto;
 
 public class Main {
     public static void main(String[] args){
-        int a = 10;
-        int b = 2;
-        double r = 0.0;
+        //operadpres logicos
+        boolean maior = 2 > 1;
+        boolean menor = 1 < 2;
 
-        r = a + b;
-        System.out.println("soma: "+r);
-        
-        r = a - b;
-        System.out.println("subtração: "+r);
+        boolean mairoIgual = 2 >= 1;
+        boolean menorIgual = 1 >= 2;
 
-        r = a * b;
-        System.out.println("multiplicação: "+r);
-        
-        r = a / b;
-        System.out.println("divisão: "+r);
+        boolean igual = 1 == 1;
+        boolean diferente = 1 != 2;
 
-        r = a % b;
-        System.out.println("reto: "+r);
+        System.out.println(diferente);
     }
 }
