@@ -2,37 +2,20 @@ package meuProjeto;
 
 public class Main {
     public static void main(String[] args){
-        char dia = 'Q';
-        switch (dia) {
-            case 'D':
-                System.out.println("Domingo");
-            break;
+        int contador = 0;
 
-            case 's':
-                System.out.println("Segunda-feira");
-            break;
+        while (contador < 10){
+            System.out.println(++ contador);
+        }
 
-            case 't':
-                System.out.println("Terça-feira");
-            break;
+        contador = 0;
 
-            case 'q':
-                System.out.println("Quarta-feira");
-            break;
+        do {
+            System.out.println(++ contador);
+        } while (contador < 10);
 
-            case 'Q':
-                System.out.println("Quinta-feira");
-            break;
-
-            case 'S':
-                System.out.println("Sexta-feira");
-            break;
-
-            case 'A':
-                System.out.println("Sabado");
-            break;
-            default:
-                System.out.println("valor invalido");
+        for (int i = 0; i <= contador; i++) {
+            System.out.println(i);
         }
     }
 }
