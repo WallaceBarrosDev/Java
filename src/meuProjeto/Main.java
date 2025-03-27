@@ -2,23 +2,17 @@ package meuProjeto;
 
 public class Main {
     public static void main(String[] args){
-        // operador or, and, not
-        
+        // estrutura condicional
+
         int a, b = 0;
-        boolean condicao = false;
-        a = 1; b = 2;
 
-        // and 
-        condicao = a < b && b < a;
-        System.out.println(condicao);
+        a = 2;
+        b = 5;
 
-        // or
-        condicao = a < b || a == b;
-        System.out.println(condicao);
-
-        // not
-        condicao = a == 1;
-        System.out.println(condicao);
-        System.out.println(!condicao);
+        if (a > b) {
+            System.out.println(a+" e maior que"+b);
+        } else {
+            System.out.println(a+" menor que b "+b);
+        }
     }
 }
