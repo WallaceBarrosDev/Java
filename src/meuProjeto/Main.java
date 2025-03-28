@@ -2,20 +2,13 @@ package meuProjeto;
 
 public class Main {
     public static void main(String[] args){
-        int contador = 0;
+        int lethg = 10;
+        int[] numeros = new int[lethg];
 
-        while (contador < 10){
-            System.out.println(++ contador);
-        }
+        for(int i = 0; i < lethg; i++){
+            numeros[i] = i+1;
 
-        contador = 0;
-
-        do {
-            System.out.println(++ contador);
-        } while (contador < 10);
-
-        for (int i = 0; i <= contador; i++) {
-            System.out.println(i);
+            System.out.println(numeros[i]);
         }
     }
 }
