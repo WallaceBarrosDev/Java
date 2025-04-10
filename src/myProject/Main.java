@@ -1,11 +1,14 @@
 package myProject;
 
-import myProject.myClasses.Employee;
+import myProject.myClasses.Calculator;
 
 public class Main {
     public static void main(String[] args) {
-        Employee employee = new Employee("Wallace", 22, 2300.0, 2640.20, 2400.30);
-        employee.myInformation();
-        //a
+        Calculator calculator = new Calculator();
+
+        calculator.plus(10, 20, 20);
+        calculator.subtraction(20, 10, 5);
+        calculator.division(20, 5);
+        calculator.multiplication(10,2);
     }
 }
